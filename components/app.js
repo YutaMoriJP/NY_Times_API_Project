@@ -57,15 +57,7 @@ class App extends React.Component {
     );
   }
   render() {
-    const {
-      keyword,
-      startDate,
-      endDate,
-      nyTime,
-      isLoaded,
-      error,
-      pageCount,
-    } = this.state;
+    const { keyword, startDate, endDate, nyTime, isLoaded, error } = this.state;
     console.log(this.state);
     return (
       <div className="container">

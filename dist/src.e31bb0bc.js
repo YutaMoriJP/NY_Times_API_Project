@@ -30232,8 +30232,7 @@ var App = /*#__PURE__*/function (_React$Component) {
           endDate = _this$state2.endDate,
           nyTime = _this$state2.nyTime,
           isLoaded = _this$state2.isLoaded,
-          error = _this$state2.error,
-          pageCount = _this$state2.pageCount;
+          error = _this$state2.error;
       console.log(this.state);
       return /*#__PURE__*/_react.default.createElement("div", {
         className: "container"
@@ -30368,7 +30367,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54357" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49684" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
