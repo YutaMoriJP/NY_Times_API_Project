@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+input, label{
+    padding: 10px;
+    font-size: 1rem;
+    margin: 10;
+}
+
+.submit {
+    display: block;
+    margin: auto;
+    padding: 20;
+}
+
+.populate {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+
+.box {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 390px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box img {
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination p {
+    padding: 10px;
+    color: white;
+    background-color: seagreen;
+    cursor: pointer;
+}
